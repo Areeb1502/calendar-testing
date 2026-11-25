@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+
+# Playwright reports & artifacts
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+screenshots.zip
+
+# CRITICAL / SENSITIVE: User browser profiles, cookies, and local session data
+auth.json
+chrome-profile/
+*.pma
+
+# Environment files
+.env
+.env.*
